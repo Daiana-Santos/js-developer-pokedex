@@ -1,8 +1,13 @@
-
+//Atualização com mais detalhes
 class Pokemon {
-    number;
     name;
     type;
     types = [];
     photo;
+    skills = [];
+    base_experience;
+    height;
+    weight;
+    specie;
+    moves = [];
 }

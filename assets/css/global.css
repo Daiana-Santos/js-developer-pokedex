@@ -1,21 +1,38 @@
-* {
+/*
+    Fonte da Página
+*/
+*{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
-body {
+/*
+    Cor de Fundo
+*/
+body{
     background-color: #f6f8fc;
 }
 
-.content {
+/*
+    Tamanho da aréa
+*/
+.content{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     padding: 1rem;
-    background-color: #fff;
+    background-color: white;
+    
 }
-
+/*
+    Rodapé
+*/
+footer#rodape p{
+    text-align: center;
+}
+/*
+    Deixando layout responsivo
+*/
 @media screen and (min-width: 992px) {
-    .content {
+    .content{
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
